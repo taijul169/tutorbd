@@ -1,0 +1,576 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:    Project Name
+Version:    1.0
+Last change:    24/03/17 [fixed Float bug, vf]
+Author Name: Author Name
+Primary use:    Project Type
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Body
+2.
+-------------------------------------------------------------------*/
+
+/*
+==========================================
+    Reset Css
+==========================================
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,300i,400,500,600,700,900|Rubik:300,300i,400,500,700,900');
+
+body{font-family: 'Rubik', sans-serif;
+     font-size: 15px;line-height: 25px;
+     font-weight: 400;}
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ {
+   
+    font-family: 'Poppins', sans-serif;
+}
+p{}
+
+.btn {
+  padding: 15px 40px;
+  border: 1px solid #505cfd;
+  display: inline-block;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Poppins;
+  color: #595959;
+  
+}
+.pb{
+  padding-bottom: 70px;
+}
+.section-padding{
+  padding: 100px 0px;
+}
+
+/*
+==========================================
+   header area
+==========================================
+*/
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+.header-area {
+  padding: 0 40px;
+}
+.main-menu-area ul li a {
+  font-size: 14px;
+  font-weight: 600;
+  color: #343434;
+  font-family: 'Poppins', sans-serif;
+  padding: 50px 0;
+  display: inline-block;
+  line-height: 1;
+}
+
+.main-menu-area ul li {
+  display: inline-block;
+  margin-left: 40px;
+}
+.hire-us a {
+  padding: 15px 55px;
+  border: 1px solid#505cfd;
+  display: inline-block;
+  border-radius:30px;
+  margin-top:22px;
+  margin-left:50px;
+  color:#343434;
+  font-weight: 600;
+
+}
+
+/*------------------
+   slider-area      
+ ------------------  */
+
+.slider-area img {
+  width: 100%;
+}
+.slider-icon {
+  margin-bottom: 20px;
+}
+.single-slider{
+  background-image: url(../img/slider1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+}
+.slider-icon a {
+  font-size: 18px;
+  color: #505cfd;
+  padding: 0 15px;
+}
+.slider-inner h2 {
+  font-size: 72px;
+  color: #595959;
+  font-weight: 600;
+}
+.slider-inner p {
+  font-size: 15px;
+  color: #343434;
+  padding: 25px 0;
+  margin-bottom: 25px;
+} 
+.slider-inner .btn {
+  padding: 15px 40px;
+  border: 1px solid #505cfd;
+  display: inline-block;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Poppins;
+  color: #595959;
+  
+}
+
+/*------------------
+   Feature area---  
+   ----------------- */
+ .features-area {
+  position: relative;
+  margin-top: -100px;
+ }
+   .blue-bg {
+  background: #505cfd;
+  border-radius: 10px;
+}
+   .pt{
+    padding:50px 0px;
+   }
+.single-feature.text-center i {
+  font-size: 30px;
+  padding-bottom: 35px;
+  color: #fff;
+}
+.single-feature.text-center.pt h3 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+}
+.single-feature.text-center.pt p {
+  color: #fff;
+  line-height: 25px;
+  font-size: 15px;
+}
+.single-feature.text-center.pt {
+  border-right: 1px solid #fff;
+}
+/*-------------------------
+   feature-bottom          
+  ------------------------- */
+.about-featuer h3 {
+  color: #404044;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 32px;
+  margin-bottom: 50px;
+  display: block;
+  position: relative;
+}
+.about-featuer h3::after {
+  position: absolute;
+  content: "";
+  height: 3px;
+  bottom: -20px;
+  background: #505cfd;
+  left: 3px;
+  width: 55px;
+}
+.about-featuer p {
+  color: #595959;
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+.feature-img img {
+  width: 100%;
+}
+
+
+/*-----------------
+subscribe-area     
+-------------------*/
+.subscribe-area {
+  background-image: url(../img/bg1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 50px 0;
+}
+.subscribe-area h3 {
+  color: #404044;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 32px;
+  margin-bottom: 20px;
+  display: block;
+  position: relative;
+}
+.section-title.text-center p {
+  padding-bottom: 15px;
+  color: #595959;
+  font-size: 15px;
+}
+.subscribe-form input {
+  padding: 11px 30px;
+  border-radius: 30px;
+  border: none;
+  margin-right: 15px;
+  width: 230px;
+}
+.subscribe-form button {
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: none;
+  background: #505cfd;
+  color: #fff;
+  width: 154px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/*----------------------
+service-are             
+----------------------*/
+.single-service.text-center i {
+  font-size: 48px;
+  color: #505cfd;
+  margin-bottom: 50px;
+}
+.single-service.text-center h3 {
+  color: #3f3f3f;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: ;
+  margin-bottom: 30px;
+}
+.single-service.text-center p {
+  font-size: 15px;
+  color: #595959;
+  margin-bottom: 60px;
+}
+.single-service.text-center {
+  border: 1px solid #ebebeb;
+  padding: 50px 35px;
+  transition: all 0.5s ease-out;
+}
+.single-service:hover{
+  background: #343434;
+}
+.single-service:hover h3{
+  color:#fff;
+}
+.single-service:hover .btn{
+  color:#fff;
+}
+
+/*-------------------
+pricing area         
+----------------------*/
+.pricing-area{
+  background:#e7e8fe;
+}
+.single-pricing h3 {
+  color: #3f3f3f;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 30px 0;
+  border-bottom: 1px solid#e6e6e6;
+}
+.single-pricing span {
+  font-size: 40px;
+  font-weight: 600;
+  color: #505cfd;
+  display: inline-block;
+  margin-top: 30px;
+}
+.single-pricing span > span {
+  font-size: 20px;
+  position: absolute;
+  margin-top: -5px;
+  left: 106px;
+  font-weight: 500;
+}
+.single-pricing ul li {
+  color: #595959;
+  font-size: 15px;
+  padding: 15px 0;
+}
+
+.single-pricing {
+  border: 1px solid #cfd1fc;
+  width: 28%;
+  position: relative;
+  transition: all 0.5s ease-out;
+}
+.single-pricing:hover{
+  background: #fff;
+  box-shadow: 0px 15px 30px 0px rgba(80, 92, 253, 0.1);
+}
+.single-pricing.text-center ul {
+  margin: 40px 0;
+}
+.single-pricing.text-center a.btn {
+  margin-bottom: 30px;
+}
+.active {
+  background: #fff;
+ box-shadow: 0px 15px 30px 0px rgba(80, 92, 253, 0.1);
+}
+/*---------------
+ counter-area   
+ ----------------*/
+ .counter-area{
+  padding: 50px 0;
+  background: #505cfd;
+ }
+ .single-counter .counter-img {
+  padding: 20px 0;
+}
+.single-counter.text-center span {
+  color:#fff;
+  margin-bottom: 15px;
+  font-size: 32px;
+  font-weight: normal;
+}
+.single-counter.text-center p {
+  color: #fff;
+  margin-top: 10px;
+}
+/*--------------------
+   team-area           
+   -------------------*/
+.single-team{
+  position: relative;
+}
+
+.single-team img {
+  width: 100%;
+}
+.container-fluid.wp {
+  padding-left: 0;
+  padding-right: 0;
+}
+.team-content h3 {
+  color: #3f3f3f;
+  font-size: 22px;
+  font-weight: 500;
+  display: block;
+}
+.team-content.text-center ul {
+  margin-top: 15px;
+}
+.team-content.text-center ul li {
+  display: inline-block;
+}
+.team-content.text-center ul li a {
+  font-size: 18px;
+  color: #333333;
+  padding: 6px;
+}
+.team-content.text-center span {
+  color: #595959;
+  font-size: 15px;
+}
+.team-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  width: 85%;
+  height: 85%;
+  margin: auto;
+  bottom: 0;
+  padding: 100px 40px;
+  transform: translateY(-50%);
+  visibility: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.902;
+}
+.single-team:hover .team-content{
+  visibility: visible;
+  opacity: 1;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.902;
+  transform: translateY(0%);
+}
+
+/*----------------------
+        Blog-area       
+  ----------------------*/
+.single-blog img {
+  width: 100%;
+}
+.single-blog h3 {
+  font-size: 22px;
+  display: inline-block;
+  margin: 20px 0;
+  color: #3f3f3f;
+  font-weight: 500;
+}
+.single-blog p {
+  color: #3f3f3f;
+  margin: 15px 0;
+}
+.single-blog a {
+  margin-top: 35px;
+}
+.single-blog span {
+  color: #3f3f3f;
+  position: relative;
+}.single-blog span::after {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 1px;
+  background: #3f3f3f;
+  top: 50%;
+  left: 60px;
+}
+
+/*-----------------------
+ client-area 
+ ------------------------*/
+ .client-area{
+  background: url(../img/clientbg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+ }
+ .client-active{
+  position: relative;
+ }
+ .single-slide.text-center h3 {
+  color: #505cfd;
+  font-size: 22px;
+  font-weight: 600;
+  display: block;
+}
+.single-slide.text-center span {
+  color: #595959;
+}
+.single-slide.text-center p {
+  color: #595959;
+  margin-top: 25px;
+}
+.single-slide {
+  padding: 50px 120px;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.902;
+}
+
+/* ---------------
+brand-area 
+------------------*/
+.single-brand img {
+
+
+}
+
+/* ----------------------
+footer-widget-area
+------------------------ */
+.footer-widget-area{
+  background: #343434;
+}
+.single-widget h3 {
+  color: #fff;
+  padding-bottom: 19px;
+  font-size: 22px;
+}
+.social li {
+  display: inline-block;
+  
+}
+.single-widget li {
+  padding: 10px 0;
+  line-height: 30px;
+  line-height: ;
+  list-style: none;
+  color: #595959;
+}
+.single-widget li a{
+
+}
+.social li a{
+  color: #fff;
+  margin-right: 35px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.single-widget.footer-mdl ul li {
+  width: 46%;
+  display: inline-block;
+}
+.single-widget.footer-mdl ul li a{
+  color: #fff;
+}
+.footer-link i {
+  color: #fff;
+  padding-right: 8px;
+  font-size: 14px;
+}
+.footer-right {
+  display: flex;
+  margin-top: 28px;
+  padding: 10px 0;
+}
+.ftr-img img {
+  width: 100%;
+}
+.ftr-img {
+  padding-right: 20px;
+}
+.ftr-rt-cntnt p {
+  color: #595959;
+}
+.ftr-rt-cntnt span {
+  color: #777777;
+  font-size: 14px;
+}
+.row.border-btm {
+  border-bottom: 1px solid #494949;
+  padding-bottom: 35px;
+}
+.footer-bottom-area{
+  background: #343434;
+  color:#777777;
+}
+.btm-right li {
+  display: inline-block;
+  /* text-align: right; */
+  float: right;
+  margin-left: 22px;
+}
